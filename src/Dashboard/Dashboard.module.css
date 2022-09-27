@@ -1,8 +1,7 @@
 .mydashboard {
     margin: 0;
-    font-family: 'Libre Bodoni', serif;
+    font-family: 'Libre Bodoni';
     font-style: normal;
     background-image: url('../Assets/background.jpg');
     background-repeat: no-repeat;
-  
   }
