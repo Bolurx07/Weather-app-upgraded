@@ -3,9 +3,14 @@ import dashBoardStyle from '../Dashboard/Dashboard.module.css'
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className={dashBoardStyle.mydashboard}>
+        <div className={dashBoardStyle.div1}>
+            <h1> Weather Dashboard</h1>
+        </div>
+        <div className={dashBoardStyle.div2}>
+
+        </div>
         
-        <h1>Dashboard</h1>
     </div>
   )
 }
