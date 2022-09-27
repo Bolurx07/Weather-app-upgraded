@@ -5,3 +5,30 @@
     background-image: url('../Assets/background.jpg');
     background-repeat: no-repeat;
   }
+
+
+  .header{
+    padding: 2rem;
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #eeecf5 0%, aqua 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+
+.header h1{
+    font-size: 1rem;
+      
+}
